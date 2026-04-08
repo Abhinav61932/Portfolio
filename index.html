@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Tyagi - Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Abhinav Tyagi, showcasing projects and skills.">
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div id="scroll-progress"></div>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Abhinav Tyagi<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Left Side: Text Details -->
+            <div class="hero-text-content">
+                <h1 class="animate-text">Hi, I'm <span class="gradient-text">Abhinav Tyagi</span></h1>
+                <p class="hero-subtitle animate-text delay-1" id="typing-text"></p>
+                <div class="cta-group animate-text delay-2">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="general cv (7).pdf" class="btn btn-secondary" download>Download CV</a>
+                </div>
+                <!-- Social Links -->
+                <div class="hero-socials animate-text delay-3">
+                    <a href="https://github.com/Abhinav61932" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/abhinav-tyagi-5405b0275/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+
+            <!-- Right Side: Profile Picture -->
+            <div class="hero-image-content animate-text delay-1">
+                <div class="profile-img-container">
+                    <img src="https://avatars.githubusercontent.com/u/152967795?v=4" alt="Profile Picture"
+                        class="profile-img"
+                        onerror="this.src='https://via.placeholder.com/150/111827/3b82f6?text=Profile'">
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Decorative Elements -->
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal">
+                <div class="about-text">
+                    <p>I’m Abhinav Tyagi, a BTech student and aspiring software developer with a strong interest in
+                        building clean, practical, and user-focused web applications. I enjoy turning ideas into real
+                        projects that solve problems and deliver smooth user experiences.
+                        I’ve been working with technologies like HTML, CSS, and JavaScript, and I’m constantly exploring
+                        new tools to improve both my development skills and design sense. Alongside coding, I focus on
+                        writing structured, maintainable code and creating interfaces that are simple yet impactful.
+                        I believe in learning by building — every project I create helps me grow as a developer and
+                        pushes me closer to my goal of becoming a skilled and industry-ready software engineer.
+                        .</p>
+                    <p>My goal is to always write clean, maintainable code while ensuring the visual aesthetics are
+                        absolutely top-notch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Skills</h2>
+            <div class="skills-container reveal">
+                <div class="skill-box">Java</div>
+                <div class="skill-box">Python</div>
+                <div class="skill-box">DSA</div>
+                <div class="skill-box">Power BI</div>
+                <div class="skill-box">React JS</div>
+                <div class="skill-box">Excel</div>
+                <div class="skill-box">MySQL</div>
+                <div class="skill-box">Machine Learning</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="projects-grid">
+                <!-- BTech -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">BTech CSE (Data Science)</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">Lovely
+                            Professional University</p>
+                        <p>Currently pursuing my bachelor's degree in Computer Science Engineering with a specialization
+                            in Data Science.</p>
+                    </div>
+                </div>
+                <!-- 12th Class -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">12th Grade</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">Himalayan Public
+                            School &bull; Muzaffarnagar, UP</p>
+                        <p>Completed Senior Secondary Education.</p>
+                    </div>
+                </div>
+                <!-- 10th Class -->
+                <div class="project-card reveal delay-3">
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">10th Grade</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">Himalayan Public
+                            School &bull; Muzaffarnagar, UP</p>
+                        <p>Completed High School Education.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Selected Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+                            alt="AI Story teller Cover" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Story teller</h3>
+                        <p>It is a project based on ai story teller. Made using html, css, javascript and gemini api.
+                        </p>
+                        <a href="https://windcodes0.github.io/Ai_project" class="project-link" target="_blank"
+                            rel="noopener noreferrer">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800"
+                            alt="Vegetables Sales Dashboard Cover"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Vegetables Sales Dashboard</h3>
+                        <p>It is a project based on vegetables sales and analysis. Made Using excel.</p>
+                        <a href="https://github.com/Abhinav61932/dashboard-exce-" class="project-link">View Project
+                            &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card reveal delay-3">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=800"
+                            alt="Life-Link Cover" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Life-Link</h3>
+                        <p>It is a project based on emergency blood donation. Made using java and maven</p>
+                        <a href="https://github.com/Abhinav61932/Life-Link" class="project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Cirtificates</h2>
+            <div class="projects-grid">
+                <!-- Certification Card: Binary Blitz -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800"
+                            alt="Binary Blitz Certificate" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">Binary Blitz Web Hackathon</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">Coding Ninjas
+                            &bull; 2024</p>
+                        <p>Certificate of Achievement for active participation in the Binary Blitz Web Hackathon.</p>
+                    </div>
+                </div>
+
+                <!-- Certification Card: PL SQL Boot camp -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+                            alt="PL SQL Boot camp Certificate" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">PL sql Boot camp</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">LPU &bull; 2025
+                        </p>
+                        <p>I have completed the PL/Sql certification organise by Bootcamp from LPU.</p>
+                        <a href="https://www.linkedin.com/posts/abhinav-tyagi-5405b0275_lpu-certificateofmerit-datascience-share-7369216706910613506-YFTr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEMvigAB3ktNpmy2Fqfwk5slGrV1BALZpaA"
+                            class="project-link" target="_blank" rel="noopener noreferrer">View Certificate &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Certification Card: Computer Networking -->
+                <div class="project-card reveal delay-3">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800"
+                            alt="Computer networking Certificate" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">Bits and bytes of computer networking</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">Google &bull;
+                            2024</p>
+                        <p>Bits and bytes of computer networking from coursera.</p>
+                        <a href="https://www.linkedin.com/posts/abhinav-tyagi-5405b0275_networking-google-coursera-share-7397571572137521152-qiMc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEMvigAB3ktNpmy2Fqfwk5slGrV1BALZpaA"
+                            class="project-link" target="_blank" rel="noopener noreferrer">View Certificate &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Certification Card: Hardware and Operating System -->
+                <div class="project-card reveal delay-4">
+                    <div class="project-image">
+                        <!-- REPLACE the src attribute below with your own photo's path -->
+                        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&q=80&w=800"
+                            alt="Hardware and operating system Certificate"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info" style="justify-content: center;">
+                        <h3 style="color: var(--accent-color);">Hardware and operating system</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.5rem; color: var(--text-primary);">IBM &bull; 2024
+                        </p>
+                        <p>Introduction to Hardware and Operating Systems from IBM.</p>
+                        <a href="https://www.linkedin.com/posts/abhinav-tyagi-5405b0275_im-excited-to-share-that-i-have-successfully-share-7397545243476336640-1Fy5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEMvigAB3ktNpmy2Fqfwk5slGrV1BALZpaA"
+                            class="project-link" target="_blank" rel="noopener noreferrer">View Certificate &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Let's Connect</h2>
+            <div class="contact-content reveal delay-1">
+                <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll
+                    try my best to get back to you!</p>
+                <div style="margin-bottom: 2rem; color: var(--text-primary); font-size: 1.1rem; font-weight: 600;">
+                    <a href="mailto:abhinavt654@gmail.com"
+                        style="display: block; margin-bottom: 0.5rem; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent-color)'"
+                        onmouseout="this.style.color=''">abhinavt654@gmail.com</a>
+                    <a href="tel:9557524152" style="display: block; margin-bottom: 0.5rem; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent-color)'"
+                        onmouseout="this.style.color=''">9557524152</a>
+                    <a href="https://github.com/Abhinav61932" target="_blank" rel="noopener noreferrer"
+                        style="display: block; margin-bottom: 0.5rem; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color=''">GitHub</a>
+                    <a href="https://www.linkedin.com/in/abhinav-tyagi-5405b0275/" target="_blank"
+                        rel="noopener noreferrer" style="display: block; transition: color 0.3s;"
+                        onmouseover="this.style.color='var(--accent-color)'"
+                        onmouseout="this.style.color=''">LinkedIn</a>
+                </div>
+                <!-- Replace with actual email URL -->
+                <a href="mailto:abhinavt654@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Abhinav Tyagi. Built with passion.</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
